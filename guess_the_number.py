@@ -4,7 +4,7 @@ def game(pmax,n):
     print("Угадайте число от 1 до ",n, " за ",pmax," попыток")
     a = random.randint(1,n)
     b = -1
-    p = 1
+    p = 0
     while a != b:
         b = int(input("Ваш вариант = "))
         p = p + 1
